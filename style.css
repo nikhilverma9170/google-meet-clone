@@ -1,0 +1,9 @@
+.logo{
+    text-align: center;
+    border: 1px solid black;
+    padding: 15vh 30vh 15vh 30vh;
+    margin: 4%;
+}
+.container{
+    margin: auto;
+}
