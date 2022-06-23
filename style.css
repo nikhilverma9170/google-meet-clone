@@ -1,9 +1,37 @@
+
 .logo{
-    text-align: center;
-    border: 1px solid black;
-    padding: 15vh 30vh 15vh 30vh;
-    margin: 4%;
+    width: 60%;
+    margin-left: 20%;
 }
-.container{
+
+.bore{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: grey;
+    
+}
+.contain{
+    width: 98%;
     margin: auto;
+}
+.btc{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.centerbtn{
+    text-align: center;
+}
+.footer .btl{
+    margin-left: 22px;
+    float:right;
+}
+.footer{
+    position: fixed;
+    padding: 10px 0px 10px 0px;
+   left: 0;
+   background-color: black;
+   bottom: 0;
+   width: 100%;
 }
