@@ -1,37 +1,87 @@
-
-.logo{
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+    
+  }
+  
+  .logo{
     width: 60%;
     margin-left: 20%;
-}
-
-.bore{
+  }
+  
+  .bore{
     border: 1px solid black;
     border-radius: 10px;
     background-color: grey;
     
-}
-.contain{
+  }
+  .contain{
     width: 98%;
     margin: auto;
-}
-.btc{
+  }
+  .btc{
     border: 1px solid black;
     border-radius: 50%;
     padding: 10px;
     background-color: aliceblue;
-}
-.centerbtn{
+  }
+  .centerbtn{
     text-align: center;
-}
-.footer .btl{
+  }
+  .footer .btl{
     margin-left: 22px;
     float:right;
-}
-.footer{
+  }
+  .footer{
     position: fixed;
     padding: 10px 0px 10px 0px;
    left: 0;
    background-color: black;
    bottom: 0;
    width: 100%;
-}
+  }
+  
+  
+  .wrapper {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  .side-panel-toggle:hover {
+    background: #e6e6e6;
+  }
+  
+  .sp-icon-close {
+    display: none !important;
+  }
+  
+  .side-panel {
+    display: none;
+    width: 200px;
+    flex-shrink: 0;
+    padding: 40px;
+    color: #000000;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 10px;
+  }
+  
+  .side-panel-open .side-panel {
+    display: initial;
+    width: 25%;
+  }
+  
+  .side-panel-open .sp-icon-open {
+    display: none !important;
+  }
+  
+  .side-panel-open .sp-icon-close {
+    display: initial !important;
+  }
